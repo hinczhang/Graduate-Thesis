@@ -1,6 +1,7 @@
 本文档解释了张炅焱的毕业设计中所写的代码。代码按照顺序撰写，从处理数据到分析数据再到成图。
 代码应当在并行运算环境和配置Nvidia显卡的环境运行，并安装对应的CUDA。
 按照代码文件执行顺序，给每个文件以相应解释。
+'''
 1. mergeData.py             按照日粒度处理航空网络数据
 2. monthHandle.py           按照月粒度处理航空网络数据
 3. Weighted_Months.py       按照月粒度计算航空网络边权值
@@ -14,7 +15,7 @@
 11. graph.py                绘制Sigmoid和ReLu图形
 12. LinearLearning.py       线性层分析航空网络和GDELT关系
 13. RNN.py                  用RNN分析航空网络和GDELT关系
-
+'''
 请将命令行路径移入到本文件夹后，使用pip install -r requirements.txt下载所需的依赖包。
 然后依次运行代码文件。
 
